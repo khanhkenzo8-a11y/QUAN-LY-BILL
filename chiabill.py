@@ -24,11 +24,12 @@ if "users" not in st.session_state:
 
 # Cấu hình tài khoản ngân hàng nhận tiền
 BANK_INFO = {
+# Sửa lại dòng account_num viết liền không dấu cách như thế này:
+BANK_INFO = {
     "bank": "Techcombank",
-    "account_num": "7710 3939 39",
+    "account_num": "7710393939",  # <-- Xóa hết dấu cách ở đây đi bạn nhé
     "account_name": "NGO DUY KHANH"
 }
-
 # --- BỐ CỤC GIAO DIỆN: 3 CỘT ---
 col1, col2, col3 = st.columns([1.2, 1.8, 1.5])
 
