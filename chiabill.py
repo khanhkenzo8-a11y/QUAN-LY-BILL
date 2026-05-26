@@ -23,11 +23,10 @@ if "users" not in st.session_state:
     st.session_state.users = [{"name": name, "balance": 0} for name in fixed_users]
 
 # Cấu hình tài khoản ngân hàng nhận tiền
-BANK_INFO = {
-# Sửa lại dòng account_num viết liền không dấu cách như thế này:
+# Cấu hình tài khoản ngân hàng nhận tiền
 BANK_INFO = {
     "bank": "Techcombank",
-    "account_num": "7710393939",  # <-- Xóa hết dấu cách ở đây đi bạn nhé
+    "account_num": "7710393939",
     "account_name": "NGO DUY KHANH"
 }
 # --- BỐ CỤC GIAO DIỆN: 3 CỘT ---
