@@ -11,7 +11,7 @@ st.title("🍱 Hệ Thống Chia Bill & Quản Lý Dư Nợ Tự Động")
 st.write("Tải ảnh hóa đơn Grab/ShopeeFood, chọn người ăn, hệ thống tự chia tiền và tạo QR chuyển khoản!")
 
 # 2. BẢO MẬT API KEY GEMINI
-API_KEY = "AIzaSyABOThHacYN3tlr3fWM15PW2gScn-cUTFo"
+API_KEY = "AIzaSyAoDQi9wvUN_3Hx9E6V4wwjHE2auLAK47I"
 
 genai.configure(api_key=API_KEY)
 
